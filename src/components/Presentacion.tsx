@@ -9,7 +9,7 @@ export default function Presentacion() {
                         <a href="#" className="-m-1.5 p-1.5">
                             <img
                                 alt=""
-                                src="../public/img/CODE.png"
+                                src="./img/CODE.png"
                                 className="h-8 w-auto"
                             />
                         </a>
@@ -40,7 +40,7 @@ export default function Presentacion() {
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
-                                href="../public/docs/CV.pdf" download="CV - Brandon Alexis Montoya Inzunza"
+                                href="./docs/CV.pdf" download="CV - Brandon Alexis Montoya Inzunza"
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
                                 Descargar CV

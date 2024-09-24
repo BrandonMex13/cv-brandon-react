@@ -5,8 +5,9 @@ export default function Sobremi() {
                 <div className="mx-auto max-w-2xl py-8 lg:max-w-none">
                     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 rounded-xl">
                         <img
+                            loading="lazy"
                             alt=""
-                            src="../public/img/FONDO-SOBREMI.jpg"
+                            src="./img/FONDO-SOBREMI.jpg"
                             className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
                         />
                         <div
