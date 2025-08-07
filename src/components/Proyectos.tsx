@@ -46,7 +46,7 @@ const callouts = [
         description: 'Bouncing DVD',
         imageSrc: './img/proyectos/DVD.png',
         imageAlt: '',
-        href: 'hhttps://bouncing-dvd-brandon.netlify.app/',
+        href: 'https://bouncing-dvd-brandon.netlify.app/',
     }
 ]
 
