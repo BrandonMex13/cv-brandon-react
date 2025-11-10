@@ -7,6 +7,13 @@ const callouts = [
         href: 'https://vagomx-brandon.netlify.app/',
     },
     {
+        name: 'Angular',
+        description: 'Gifs-App',
+        imageSrc: './img/proyectos/GIFS-APP.png',
+        imageAlt: '',
+        href: 'https://gifsapp-brandon.netlify.app/dashboard/trending',
+    },
+    {
         name: 'React',
         description: 'GuitarLA - Venta de Guitarras',
         imageSrc: './img/proyectos/GUITARLA.png',
@@ -28,18 +35,18 @@ const callouts = [
         href: 'https://pokedex-brandon.netlify.app/pokemones/listado',
     },
     {
-        name: 'React',
-        description: 'Calculadora de Consumo',
-        imageSrc: './img/proyectos/CALCULADORACONSUMO.png',
-        imageAlt: '',
-        href: 'https://calculadora-consumo-brandon.netlify.app/',
-    },
-    {
         name: 'Angular',
         description: 'Web Freelancer',
         imageSrc: './img/proyectos/WEB-FREELANCER.png',
         imageAlt: '',
         href: 'https://web-freelancer-brandon.netlify.app/',
+    },
+    {
+        name: 'React',
+        description: 'Calculadora de Consumo',
+        imageSrc: './img/proyectos/CALCULADORACONSUMO.png',
+        imageAlt: '',
+        href: 'https://calculadora-consumo-brandon.netlify.app/',
     },
     {
         name: 'HTML + CSS',
