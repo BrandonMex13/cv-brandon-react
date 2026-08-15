@@ -14,13 +14,13 @@ export const profile = {
   phone: '+52 673 100 9528',
   availableForWork: true,
   cvUrl: '/docs/CV.pdf',
-  photo: '/img/foto.jpg',
+  photo: '/img/foto.webp',
   about: [
-    '¡Hola a todos! Soy Brandon Alexis Montoya Inzunza, un apasionado profesional en el Desarrollo de software con una sólida trayectoria como Desarrollador Web y Arquitecto de Software.',
-    'Mi enfoque ha sido principalmente el desarrollo de soluciones efectivas con el uso de las tecnologías buscando constantemente formas creativas de abordar desafíos y mejorar procesos existentes siempre con la ayuda de un buen cafe :D'
+    'Soy Brandon Alexis Montoya Inzunza, Desarrollador Web y Arquitecto de Software con más de 5 años de experiencia creando aplicaciones web escalables y mantenibles. Mi trabajo combina una arquitectura sólida con foco en el usuario, buscando que cada solución sea eficiente, limpia y lista para crecer."',
+    'He colaborado en empresas como Coppel y Capta Vale, liderando decisiones técnicas, modernizando sistemas y mejorando procesos con metodologías ágiles. Disfruto convertir problemas complejos en soluciones simples — y sí, siempre con un buen café a un lado."'
   ],
   socials: [
-    { label: 'GitHub', href: 'https://github.com/BrandonMex13', username: '@BradonMex13' },
+    { label: 'GitHub', href: 'https://github.com/BrandonMex13', username: '@BrandonMex13' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/brandon-alexis-montoya-inzunza/', username: '/brandon-alexis-montoya-inzunza/' }
   ]
 }
@@ -42,7 +42,7 @@ export const experience = [
     ]
   },
   {
-    role: 'Lider Tecnico / Arquitecto de Sofware', 
+    role: 'Lider Tecnico / Arquitecto de Software', 
     company: 'Coppel',
     period: '2022 — 2026', 
     summary: 'Toma de decisiones técnicas para asegurar escalabilidad, mantenibilidad y calidad del software.',
@@ -50,7 +50,7 @@ export const experience = [
       'Gestión y acompañamiento técnico de equipos de desarrollo de software.', 
       'Asesoría técnica para la correcta implementación de soluciones frontend y backend.',
       'Revisión y análisis de diagramas técnicos (arquitectura, flujo, componentes) para comprender y validar requerimientos del cliente.',
-      'Colaboración con distintas areas para cumplir con las necesidades funcionales y las soluciones técnicas viables.'
+      'Colaboración con distintas áreas para cumplir con las necesidades funcionales y las soluciones técnicas viables.'
     ]
   },
   {
@@ -78,64 +78,64 @@ export const projects = [
     tech: 'Angular',
     description: 'Aplicación web construida con Angular.',
     href: 'https://vagomx-brandon.netlify.app',
-    github: '',
-    screenshot: '/img/proyectos/vagomx.png'
+    github: 'https://github.com/BrandonMex13/vagomx-frontend',
+    screenshot: '/img/proyectos/vagomx.webp'
   },
   {
     name: 'Gifs-App',
     tech: 'Angular',
     description: 'Buscador y visualizador de GIFs con Angular.',
     href: 'https://gifsapp-brandon.netlify.app/dashboard/trending',
-    github: '',
-    screenshot: '/img/proyectos/gifs-app.png'
+    github: 'https://github.com/BrandonMex13/gifs-app',
+    screenshot: '/img/proyectos/gifs-app.webp'
   },
   {
     name: 'GuitarLA - Venta de Guitarras',
     tech: 'React',
     description: 'Tienda online de guitarras construida con React.',
     href: 'https://guitarla-brandon.netlify.app',
-    github: '',
-    screenshot: '/img/proyectos/guitarla.png'
+    github: 'https://github.com/BrandonMex13/guitarla',
+    screenshot: '/img/proyectos/guitarla.webp'
   },
   {
     name: 'FrontEnd Store',
     tech: 'Angular',
     description: 'Tienda front-end construida con Angular.',
     href: 'https://web-store-brandon.netlify.app',
-    github: '',
-    screenshot: '/img/proyectos/frontend-store.png'
+    github: 'https://github.com/BrandonMex13/web-store',
+    screenshot: '/img/proyectos/frontend-store.webp'
   },
   {
     name: 'Pokedex',
     tech: 'Angular',
     description: 'Pokedex interactiva con Angular.',
     href: 'https://pokedex-brandon.netlify.app/pokemones/listado',
-    github: '',
-    screenshot: '/img/proyectos/pokedex.png'
+    github: 'https://github.com/BrandonMex13/pokedex',
+    screenshot: '/img/proyectos/pokedex.webp'
   },
   {
     name: 'Web Freelancer',
     tech: 'Angular',
     description: 'Sitio web para freelance desarrollado con Angular.',
     href: 'https://web-freelancer-brandon.netlify.app',
-    github: '',
-    screenshot: '/img/proyectos/web-freelancer.png'
+    github: 'https://github.com/BrandonMex13/web-freelancer',
+    screenshot: '/img/proyectos/web-freelancer.webp'
   },
   {
     name: 'Calculadora de Consumo',
     tech: 'React',
     description: 'Calculadora de consumo energético construida con React.',
     href: 'https://calculadora-consumo-brandon.netlify.app',
-    github: '',
-    screenshot: '/img/proyectos/calculadora-consumo.png'
+    github: 'https://github.com/BrandonMex13/calculadora-propinas',
+    screenshot: '/img/proyectos/calculadora-consumo.webp'
   },
   {
     name: 'Bouncing DVD',
     tech: 'HTML + CSS',
     description: 'Animación clásica del logo DVD con HTML y CSS.',
     href: 'https://bouncing-dvd-brandon.netlify.app',
-    github: '',
-    screenshot: '/img/proyectos/bouncing-dvd.png'
+    github: 'https://github.com/BrandonMex13/bouncing-dvd',
+    screenshot: '/img/proyectos/bouncing-dvd.webp'
   }
 ]
 

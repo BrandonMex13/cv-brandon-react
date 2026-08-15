@@ -6,9 +6,9 @@ import SectionHeading from './SectionHeading'
 export default function About() {
   const facts = [
     { icon: MapPin, label: 'Ubicación', value: profile.location },
-    { icon: User, label: 'Perfil', value: 'Desarrollador Web y Arquitecto de Software' },
+    { icon: User, label: 'Perfil', value: 'Desarrollador Web · Arquitecto de Software' },
     { icon: Mail, label: 'Email', value: profile.email },
-    { icon: Coffee, label: 'Estado', value: 'Siempre con café :D' }
+    { icon: Coffee, label: 'Estado', value: 'Abierto a nuevos retos' }
   ]
 
   return (
@@ -16,7 +16,7 @@ export default function About() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Sobre mí"
-          title="Tomemos un café juntos..."
+          title="Más allá del código"
           description="Un poco de quién soy y qué hago."
         />
 
