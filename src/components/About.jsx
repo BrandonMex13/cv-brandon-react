@@ -6,7 +6,7 @@ import SectionHeading from './SectionHeading'
 export default function About() {
   const facts = [
     { icon: MapPin, label: 'Ubicación', value: profile.location },
-    { icon: User, label: 'Perfil', value: 'Desarrollador Web y Arquitecto' },
+    { icon: User, label: 'Perfil', value: 'Desarrollador Web y Arquitecto de Software' },
     { icon: Mail, label: 'Email', value: profile.email },
     { icon: Coffee, label: 'Estado', value: 'Siempre con café :D' }
   ]

@@ -8,20 +8,20 @@ export const profile = {
   name: 'Brandon Alexis Montoya Inzunza',
   firstName: 'Brandon',
   role: 'Desarrollador Web',
-  headline: 'Desarrollo de software que resuelve problemas reales.',
-  location: 'Guadalajara, Jalisco, México',
-  email: 'tu@correo.com', // TODO: reemplaza con tu email real
-  phone: '+52 33 0000 0000', // TODO: reemplaza con tu teléfono real
+  headline: 'Arquitecto de software.',
+  location: 'Culiacán, Sinaloa, México',
+  email: 'BrandonMex13@gmail.com',
+  phone: '+52 673 100 9528',
   availableForWork: true,
-  cvUrl: '/docs/CV.pdf', // coloca tu CV.pdf en public/docs/CV.pdf
-  photo: '/img/foto.jpg', // coloca tu foto en public/img/foto.jpg
+  cvUrl: '/docs/CV.pdf',
+  photo: '/img/foto.jpg',
   about: [
     '¡Hola a todos! Soy Brandon Alexis Montoya Inzunza, un apasionado profesional en el Desarrollo de software con una sólida trayectoria como Desarrollador Web y Arquitecto de Software.',
     'Mi enfoque ha sido principalmente el desarrollo de soluciones efectivas con el uso de las tecnologías buscando constantemente formas creativas de abordar desafíos y mejorar procesos existentes siempre con la ayuda de un buen cafe :D'
   ],
   socials: [
-    { label: 'GitHub', href: 'https://github.com/', username: '@tu-usuario' }, // TODO: completa
-    { label: 'LinkedIn', href: 'https://linkedin.com/in/', username: '/tu-perfil' } // TODO: completa
+    { label: 'GitHub', href: 'https://github.com/BrandonMex13', username: '@BradonMex13' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/brandon-alexis-montoya-inzunza/', username: '/brandon-alexis-montoya-inzunza/' }
   ]
 }
 
@@ -31,24 +31,37 @@ export const profile = {
 // ============================================================
 export const experience = [
   {
-    role: 'Desarrollador Web / Arquitecto de Software', // TODO: puesto real
-    company: 'Tu Empresa', // TODO: empresa real
-    period: '2022 — Actualidad', // TODO: fechas reales
-    summary: 'Descripción breve de tu rol y responsabilidades.',
+    role: 'Ingeniero de Desarrollo',
+    company: 'Capta Vale',
+    period: '2026 — Actualidad',
+    summary: 'Desarrollo de sistemas y mantenimiento de sistemas Legacy',
     achievements: [
-      'Logro 1 con métrica (ej. +30% rendimiento de la app)', // TODO
-      'Logro 2 con métrica (ej. reducción de costos en 20%)', // TODO
-      'Logro 3 con métrica (ej. equipo de 5 personas guiado)' // TODO
+      'Diseñar, desarrollar y mantener aplicaciones y servicios web/móviles escalables.',
+      'Trabajar en metodologías ágiles (Scrum/Kanban) colaborando activamente con equipos multidisciplinarios ', 
+      'Implementar buenas prácticas de código (Clean Code, CI/CD, pruebas automatizadas).'
     ]
   },
   {
-    role: 'Puesto anterior', // TODO
-    company: 'Empresa anterior', // TODO
-    period: '2020 — 2022', // TODO
-    summary: 'Descripción breve de tu rol y responsabilidades.',
+    role: 'Lider Tecnico / Arquitecto de Sofware', 
+    company: 'Coppel',
+    period: '2022 — 2026', 
+    summary: 'Toma de decisiones técnicas para asegurar escalabilidad, mantenibilidad y calidad del software.',
     achievements: [
-      'Logro 1 con métrica', // TODO
-      'Logro 2 con métrica' // TODO
+      'Gestión y acompañamiento técnico de equipos de desarrollo de software.', 
+      'Asesoría técnica para la correcta implementación de soluciones frontend y backend.',
+      'Revisión y análisis de diagramas técnicos (arquitectura, flujo, componentes) para comprender y validar requerimientos del cliente.',
+      'Colaboración con distintas areas para cumplir con las necesidades funcionales y las soluciones técnicas viables.'
+    ]
+  },
+  {
+    role: 'Desarrollador Web',
+    company: 'Caprepa', 
+    period: '2021 — 2022',
+    summary: 'Desarrollo de sistemas y mantenimiento de sistemas Legacy',
+    achievements: [
+      'Desarrollo de sistemas web y creación de nuevos módulos utilizando Angular, TypeScript, HTML y CSS.',
+      'Mantenimiento y mejora de sistemas legacy, asegurando estabilidad y continuidad operativa.',
+      'Implementación de mejoras funcionales y corrección de errores en aplicaciones existentes.'
     ]
   }
 ]
@@ -135,23 +148,28 @@ export const skills = [
     category: 'Frontend',
     items: [
       { name: 'Angular', level: 'Avanzado' },
-      { name: 'React', level: 'Avanzado' },
-      { name: 'JavaScript', level: 'Avanzado' },
-      { name: 'TypeScript', level: 'Intermedio' },
-      { name: 'HTML', level: 'Avanzado' },
-      { name: 'CSS', level: 'Avanzado' }
+      { name: 'JavaScript / TypeScript', level: 'Avanzado' },
+      { name: 'React', level: 'Intermedio' },
+      { name: 'React Native', level: 'Intermedio' },
+      { name: 'Vue.js', level: 'Intermedio' },
     ]
   },
   {
     category: 'Backend',
     items: [
       { name: 'Node.js', level: 'Intermedio' },
-      { name: 'Java', level: 'Intermedio' }
+      { name: 'Java + Springboot', level: 'Intermedio' },
+      { name: 'NestJS', level: 'Intermedio' }
     ]
   },
   {
     category: 'Herramientas',
-    items: [{ name: 'Git', level: 'Avanzado' }]
+    items: [
+      { name: 'Git', level: 'Avanzado' },
+      { name: 'SQL, MySQL, MongoDB', level: 'Avanzado' },
+      { name: 'Docker', level: 'Intermedio' },
+      { name: 'GitHub Actions', level: 'Intermedio' },
+    ]
   }
 ]
 
